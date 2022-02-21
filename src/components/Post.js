@@ -61,7 +61,7 @@ const Post = ({ post }) => {
       <div className={styles.postHeader}>
         <div className={styles.postAvatar}>
           <img
-            src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1645154276~hmac=e188e6ff2f1fd828ddff369aa93142d2"
+            src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144760.png?token=exp=1645420710~hmac=ede16c8abd18714802c47736f8a3be85"
             alt="user-pic"
           />
           <div>
@@ -85,7 +85,7 @@ const Post = ({ post }) => {
           <div className={styles.postLike}>
             <button onClick={handlePostLikeClick}>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/2589/premium/2589054.png?token=exp=1645414226~hmac=4331bb1b4214c048149c28aee4ea2d5e"
+                src="https://cdn-icons-png.flaticon.com/512/126/126473.png"
                 alt="likes-icon"
               />
             </button>
