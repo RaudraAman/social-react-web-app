@@ -1,11 +1,9 @@
-import { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate,
 } from 'react-router-dom';
-import { getPosts } from '../api/index';
 import { useAuth } from '../hooks';
 import { Home, Login, Settings, UserProfile } from '../pages/index';
 import Signup from '../pages/Signup';
