@@ -85,7 +85,7 @@ const Post = ({ post }) => {
           <div className={styles.postLike}>
             <button onClick={handlePostLikeClick}>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128313.png?token=exp=1645350931~hmac=74c29a67ca6c079ad739da7ffcd7a1fc"
+                src="https://cdn-icons.flaticon.com/png/512/2589/premium/2589054.png?token=exp=1645414226~hmac=4331bb1b4214c048149c28aee4ea2d5e"
                 alt="likes-icon"
               />
             </button>
@@ -105,6 +105,7 @@ const Post = ({ post }) => {
             placeholder="Start typing a comment"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
+            disabled={creatingComment}
             onKeyDown={handleAddComment}
           />
         </div>

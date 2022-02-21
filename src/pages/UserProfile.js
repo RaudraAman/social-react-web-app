@@ -4,7 +4,7 @@ import { useToasts } from 'react-toast-notifications';
 import { Loader } from '../components';
 import styles from '../styles/settings.module.css';
 import { useAuth } from '../hooks';
-import { useEffect, useImperativeHandle, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { addFriend, fetchUserProfile, removeFriend } from '../api';
 
 const UserProfile = () => {
